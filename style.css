@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 30px;
+}
+h5 {
+	font-size: 25px;
+	margin: 0;
+}
+p {
+	font-size: 18px;
+	line-height: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+section{
+    margin: 100px 0;
+}
+.section-heading{
+    text-align: center;
+}
+/* banner-area start */
+.main-btn {
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(45deg, #456f99, #57d3e9);
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.flexible-display {
+	display: flex;
+	align-items: center;
+}
+.half-width {
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+.cyan-color{
+    color: #57d3e9;
+}
+.banner-area h1{
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    padding-left: 3%;
+}
+.banner-area h1::before {
+    content: "";
+    width: 5px;
+    height: 108px;
+    background-color: #477aa2;
+    position: absolute;
+    border-radius: 5px;
+    left: 0;
+    top: 15px;
+}
+/* banner-area end */
+/* my-mission-area stat */
+.One-third-width {
+    width: 22%;
+}
+.my-mission-item {
+    padding: 28px;
+    border-radius: 28px;
+    background-color: #edf5f6;
+    margin: 10px;
+}
+.my-mission-item img {
+    width: 50%;
+    margin-bottom: 10px;
+}
+.justify-center{
+    justify-content: center;
+}
+.lite-pink{
+    background-color: #ffeeee;
+}
+.lite-orange{
+    background-color: #fff4d6;
+}
+/* my-mission-area end */
+/* develop-area start */
+.develop-img, 
+.community-img {
+	width: 30%;
+}
+.develop-img img, 
+.community-img img{
+    width: 100%;
+}
+.develop-content,
+.community-content {
+	width: 46%;
+	margin-left: 4%;
+}
+.community-content{
+    margin: 0%;
+}
+.community-img{
+    margin-left: 4%;
+}
+/* develop-area end */
+
+/* footer section start */
+.footer-area{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0b0d17;
+}
+.footer-area h3{
+    font-family: 'Pattaya', sans-serif;
+}
+.footer-area h3, 
+.footer-area p {
+	color: #fff;
+	margin: 15px 0;
+}
+/* footer section end */
