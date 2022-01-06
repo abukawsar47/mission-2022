@@ -32,7 +32,7 @@ section{
 .section-heading{
     text-align: center;
 }
-/* banner-area start */
+/* banner-area  section start */
 .main-btn {
     padding: 12px 40px;
     border-radius: 5px;
@@ -73,9 +73,13 @@ section{
     border-radius: 5px;
     left: 0;
     top: 15px;
+} 
+.banner-area h1{
+    padding-left: 5px;
 }
-/* banner-area end */
-/* my-mission-area stat */
+/* banner-area section end */
+
+/* my-mission-area section stat */
 .One-third-width {
     width: 22%;
 }
@@ -98,8 +102,9 @@ section{
 .lite-orange{
     background-color: #fff4d6;
 }
-/* my-mission-area end */
-/* develop-area start */
+/* my-mission-area section end */
+
+/* develop-area section start */
 .develop-img, 
 .community-img{
 	width: 30%;
@@ -119,8 +124,9 @@ section{
 .community-img{
     margin-left: 4%;
 }
-/* develop-area end */
-/* contact-area start */
+/* develop-area section end */
+
+/* contact-area section start */
 .contact-details {
 	margin: 40px 0;
 }
@@ -155,7 +161,8 @@ section{
     margin-bottom: 0;
 }
 /* contact-area end */
-/* footer section start */
+
+/* footer section section start */
 .footer-area{
     padding: 20px 0;
     text-align: center;
