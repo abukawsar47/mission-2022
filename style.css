@@ -1,12 +1,9 @@
 body{
     margin: 0;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Pattaya', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 h1{
     font-size: 50px;
-    font-family: 'Rubik', sans-serif;
 }
 h2{
     font-size: 40px;
@@ -71,7 +68,7 @@ section{
     content: "";
     width: 5px;
     height: 108px;
-    background-color: #477aa2;
+    background-color: #456f99;
     position: absolute;
     border-radius: 5px;
     left: 0;
@@ -104,7 +101,7 @@ section{
 /* my-mission-area end */
 /* develop-area start */
 .develop-img, 
-.community-img {
+.community-img{
 	width: 30%;
 }
 .develop-img img, 
@@ -112,7 +109,7 @@ section{
     width: 100%;
 }
 .develop-content,
-.community-content {
+.community-content{
 	width: 46%;
 	margin-left: 4%;
 }
@@ -123,7 +120,41 @@ section{
     margin-left: 4%;
 }
 /* develop-area end */
-
+/* contact-area start */
+.contact-details {
+	margin: 40px 0;
+}
+.address{
+    font-size: 25px;
+    margin: 0;
+}
+#contact-form {
+    padding-left: 30px;
+}
+.form-control {
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 18px;
+    margin-bottom: 15px;
+	font-weight: 400;
+	background-color: #edf5f6;
+	border: 1px solid #456f99;
+	border-radius: 5px;
+}
+.contact-address {
+    width: 26%;
+}
+.contact-box {
+    width: 52%;
+    margin-right: 3%;
+}
+.ml-30{
+    margin-left: 30px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+/* contact-area end */
 /* footer section start */
 .footer-area{
     padding: 20px 0;
