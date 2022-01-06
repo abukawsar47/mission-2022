@@ -59,23 +59,20 @@ section{
 .cyan-color{
     color: #57d3e9;
 }
-.banner-area h1{
+.banner-area h1 {
     position: relative;
     font-family: 'Noto Serif', serif;
-    padding-left: 3%;
+    padding-left: 4%;
 }
 .banner-area h1::before {
     content: "";
-    width: 5px;
-    height: 108px;
+    width: 1%;
+    height: 78%;
     background-color: #456f99;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 30px;
     left: 0;
-    top: 15px;
-} 
-.banner-area h1{
-    padding-left: 5px;
+    top: 13%;
 }
 /* banner-area section end */
 
