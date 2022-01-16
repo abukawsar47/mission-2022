@@ -1,5 +1,9 @@
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
     font-family: 'Rubik', sans-serif;
 }
 h1{
@@ -19,20 +23,22 @@ h5 {
 	margin: 0;
 }
 p {
-	font-size: 18px;
-	line-height: 25px;
+    font-size: 18px;
+    line-height: 25px;
     font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
+    margin-top: 20px;
 }
 section{
     margin: 100px 0;
 }
-.section-heading{
+.section-heading {
+    margin-bottom: 30px;
     text-align: center;
 }
-/* banner-area  section start */
 .main-btn {
     padding: 12px 40px;
     border-radius: 5px;
@@ -41,24 +47,29 @@ section{
     color: #fff;
     background-image: linear-gradient(45deg, #456f99, #57d3e9);
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-.flexible-display {
-	display: flex;
-	align-items: center;
-}
-.half-width {
-    width: 35%;
-    float: left;
-    margin-left: 10%;
-}
-.half-width img{
-    width: 100%;
 }
 .cyan-color{
     color: #57d3e9;
 }
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.banner-left small {
+    margin-top: 20px;
+    display: inline-block;
+}
+/* banner-area  section start */
+.banner-area{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.banner-right img{
+    width: 100%;
+}
+
 .banner-area h1 {
     position: relative;
     font-family: 'Noto Serif', serif;
@@ -77,21 +88,22 @@ section{
 /* banner-area section end */
 
 /* my-mission-area section stat */
-.One-third-width {
-    width: 22%;
+.my-mission-area {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
 .my-mission-item {
-    padding: 28px;
-    border-radius: 28px;
+    padding: 30px;
+    border-radius: 15px;
     background-color: #edf5f6;
-    margin: 10px;
 }
 .my-mission-item img {
-    width: 50%;
-    margin-bottom: 10px;
+    width: 60%;
 }
-.justify-center{
-    justify-content: center;
+.my-mission-item p {
+    margin-bottom: 0px;
+    text-align: justify;
 }
 .lite-pink{
     background-color: #ffeeee;
@@ -101,62 +113,61 @@ section{
 }
 /* my-mission-area section end */
 
-/* develop-area section start */
-.develop-img, 
-.community-img{
-	width: 30%;
+/* develop & community area section start */
+
+.develop-area {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 30px;
+    align-items: center;
 }
-.develop-img img, 
-.community-img img{
-    width: 100%;
+
+.develop-left img, 
+.community-right img{
+	width: 100%;
 }
-.develop-content,
-.community-content{
-	width: 46%;
-	margin-left: 4%;
+.community-area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    align-items: center;
 }
-.community-content{
-    margin: 0%;
-}
-.community-img{
-    margin-left: 4%;
-}
-/* develop-area section end */
+/* develop & community area section end */
 
 /* contact-area section start */
-.contact-details {
-	margin: 40px 0;
+.contact-area {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
-.address{
-    font-size: 25px;
+.contact-left {
+    width: 500px;
+}
+.contact-details h4 {
+    margin-bottom: 20px;
+}
+.contact-details p{
+    margin: 10px 0;
+}
+.text-field {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    background-color: #edf5f6;
+    border: 1px solid #456f99;
+    border-radius: 2px;
+    outline: 0;
+    font-family: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-right a{
     margin: 0;
+    margin-right: 20px;
 }
-#contact-form {
-    padding-left: 30px;
-}
-.form-control {
-	width: 100%;
-	padding: 10px 15px;
-	font-size: 18px;
-    margin-bottom: 15px;
-	font-weight: 400;
-	background-color: #edf5f6;
-	border: 1px solid #456f99;
-	border-radius: 5px;
-}
-.contact-address {
-    width: 26%;
-}
-.contact-box {
-    width: 52%;
-    margin-right: 3%;
-}
-.ml-30{
-    margin-left: 30px;
-}
-.mb-0{
-    margin-bottom: 0;
-}
+
 /* contact-area end */
 
 /* footer section section start */
@@ -171,6 +182,6 @@ section{
 .footer-area h3, 
 .footer-area p {
 	color: #fff;
-	margin: 15px 0;
+	margin: 20px 0;
 }
 /* footer section end */
